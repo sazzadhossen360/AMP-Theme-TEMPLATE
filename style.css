@@ -100,6 +100,9 @@ a{
     font-size: 25px;
     font-weight: 500;
 }
+.primary-menu span {
+  display: none;
+}
 .primary-menu ul li {
     display: inline-block;
     list-style: none;
@@ -163,6 +166,7 @@ a{
  BANNER AREA STYLE START
  ======================*/
  .banner-section{
+  -webkit-background: url('./assets/img/03.jpg') center center no-repeat;
      background: url('./assets/img/03.jpg') center center no-repeat;
      background-size: cover;
      padding: 200px 0;
